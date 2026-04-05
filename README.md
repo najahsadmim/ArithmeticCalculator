@@ -1,6 +1,7 @@
 # Basic Arithmetic Calculator
 
-A Java-based application that parses and solves simple arithmetic expressions. This project demonstrates string manipulation, input parsing, and basic object-oriented programming in Java.
+This project contains two versions of a simple arithmetic calculator, one written in Java, another in Python. Both versions demonstrate string manipulation, input parsing, and basic object-oriented programming.
+
 
 **Features:**
 
@@ -12,9 +13,10 @@ A Java-based application that parses and solves simple arithmetic expressions. T
 
 --Input Cleaning: Automatically removes spaces from user input to prevent parsing errors.
 
+
 **Technical Details:**
 
-The application uses the following Java concepts:
+JAVA:
 
 --Scanner: To read user input from the console.
 
@@ -23,6 +25,15 @@ The application uses the following Java concepts:
 --Type Conversion: Integer.parseInt() to convert text into math-ready integers.
 
 --Methods: Logic is separated into static methods for each arithmetic operation.
+
+PYTHON:
+
+--Input: Uses the input() function.
+
+--Dynamic Splitting: Uses the split() method to break the string based on the detected operator.
+
+--Type Conversion: Uses the int() constructor for numerical operations.
+
 
 **Future Improvements:**
 
