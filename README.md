@@ -2,7 +2,7 @@
 
 A Java-based application that parses and solves simple arithmetic expressions. This project demonstrates string manipulation, input parsing, and basic object-oriented programming in Java.
 
-**Features**
+**Features:**
 
 --Expression Parsing: The program accepts a full expression (e.g., 10+5) and automatically separates the numbers and the operator.
 
@@ -12,7 +12,7 @@ A Java-based application that parses and solves simple arithmetic expressions. T
 
 --Input Cleaning: Automatically removes spaces from user input to prevent parsing errors.
 
-**Technical Details**
+**Technical Details:**
 
 The application uses the following Java concepts:
 
@@ -24,7 +24,7 @@ The application uses the following Java concepts:
 
 --Methods: Logic is separated into static methods for each arithmetic operation.
 
-**Future Improvements**
+**Future Improvements:**
 
 --Add support for decimal numbers (Double).
 
