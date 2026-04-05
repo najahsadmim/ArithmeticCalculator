@@ -35,7 +35,7 @@ public class ArithCalculator {
         if (op.equals("+")) {
             System.out.println("Result: " + add(n1, n2));
         } else if (op.equals("-")) {
-            if (n1>n2){
+            if (n1>=n2){
                 System.out.println("Result: " + subt(n1, n2));
             }
             else{
